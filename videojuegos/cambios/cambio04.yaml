@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 4
+      author: Antonio Naranjo
+      comment: Creación de secuencias
+      changes:
+        - sqlFile:
+            path: adelante/adelante04.sql
+        - tagDatabase:  
+            tag: v3
+      rollback:
+        - sqlFile:
+            path: atras/atras04.sql

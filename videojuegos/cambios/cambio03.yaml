@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 3
+      author: Antonio Naranjo
+      comment: insercion de datos
+      changes:
+        - sqlFile:
+            path: adelante/adelante03.sql
+        - tagDatabase:  
+            tag: v2
+      rollback:
+        - sqlFile:
+            path: atras/atras03.sql

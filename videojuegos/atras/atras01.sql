@@ -1,0 +1,13 @@
+-- Borrar tablas
+drop table ganan;
+drop table trofeos;
+drop table videojuegos;
+drop table categoria;
+drop table suscripcion;
+drop table wallpapers;
+drop table peliculas;
+drop table se_almacena;
+drop table biblioteca;
+drop table compra_p;
+drop table productos;
+drop table usuario;

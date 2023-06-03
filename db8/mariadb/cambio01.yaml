@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: Antonio Naranjo
+      comment: creacion tabla/eliminacion
+      changes:
+        - sqlFile:
+            path: adelante/adelante01.sql
+        - tagDatabase:
+            tag: v1
+      rollback:
+        - sqlFile:
+            path: atras/atras01.sql
