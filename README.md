@@ -284,6 +284,7 @@ Liquibase es una herramienta muy útil para aplicar cambios de forma estructurad
 
 - Visual studio Code.
 - Liquibase.
+- SQL Developer
 - Docker.
 - MySQL Workbench.
 
